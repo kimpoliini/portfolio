@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text');
+
+h1 {
+  font-size: 1em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-left {
+  flex: 1;
+}
+.header-right {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+}
+
+header a {
+  margin-left: 2rem;
+  transition: color 0.2s;
+}
+
+.header-left > a {
+  margin-left: 0;
+}
+
+.header-right > a:last-child {
+  margin-right: 2rem;
+}
+
+.header-right > a::after {
+  display:block;
+  content: '';
+  border-bottom: 2px solid rgb(67, 166, 199);
+  margin-bottom: -2px;
+
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.header-right > a:hover {
+  color: rgb(67, 166, 199);
+}
+
+.header-right > a:hover::after {
+  transform: scaleX(1);
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  user-select: none;
+  cursor: pointer;
+  font-family: 'Big Shoulders Text';
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  font-size: calc(18pt + 1vmin);
+  color: gray;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.content {
+  margin: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+
+  .App-header {
+    flex-direction: column;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
   }
 }
+
