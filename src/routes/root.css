@@ -1,0 +1,19 @@
+.image-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kim {
+    flex: 1;
+}
+.kim > img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.image-and-text > p {
+    flex: 1.5;
+    font-size: 14pt;
+    margin-top: 0px;
+    margin-left: 1rem;
+}

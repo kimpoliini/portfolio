@@ -9,12 +9,13 @@ import {
   createBrowserRouter,
   RouterProvider,
   Route,
+  createHashRouter,
 } from "react-router-dom";
 import Projects from './routes/Projects';
 import Contact from './routes/Contact';
 import Root from './routes/Root';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,

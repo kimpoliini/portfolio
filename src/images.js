@@ -8,4 +8,5 @@ export const icons = {
 export const images = {
     drinkos: require("./assets/images/drinkos.png"),
     rgbgame: require("./assets/images/rgbgame.png"),
+    kim: require("./assets/images/kim.jpg"),
 }
