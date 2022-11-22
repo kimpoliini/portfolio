@@ -1,6 +1,7 @@
 export const icons = {
-    phone: require("./assets/phone.png"),
-    email: require("./assets/email.png"),
-    github: require("./assets/github.png"),
+    phone: require("./assets/icons/phone.png"),
+    email: require("./assets/icons/email.png"),
+    github: require("./assets/icons/github.png"),
+    website: require("./assets/icons/website.png"),
 
 }

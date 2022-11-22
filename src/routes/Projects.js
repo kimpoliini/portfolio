@@ -1,21 +1,67 @@
 import React from 'react'
+import Project from '../components/Project'
+import Icon from '../components/Icon'
+import { icons } from '../images'
+
 
 function Projects() {
   return (
-    <div>he results are in! If you voted Strength, you want to meet any challenge head on. Our new 4th Gen AMD #EPYC processors deliver the performance and compute you need for all your business-critical workloads from the enterprise to cloud.   
+    <div>
+      <Project title="Better Days"
+        description="En app för dig som vill spåra ditt välmående från dag till dag.
+        I appen kommer du vid en vald tidpunkt på dagen få utvärdera den nuvarande eller tidigare dag,
+        som sedan kommer sparas lokalt. Utifrån datan skapas en graf som visar hur den tidigare veckan sett ut,
+        så att du kan undersöka vilka ändringar i din vardag som kan ha orsakat svängningar.
+        Skapad I React Native som examensuppgift åt min partner <3.
+        "
+        links={[
+          <Icon size='small' src={icons.github} text="BetterDays på GitHub" link="https://github.com/kim-iths/BetterDays" />
+        ]} />
 
-    Build Strength: http://bit.ly/3EPtafS
-    Quote Tweet
-    AMD
-    @AMD
-    ·
-    Nov 10
-    
-    Official
-    For you to build a modern #datacenter for the digital era, you need 4th gen #EPYC processors!
-    
-    Question: What data center superpower do you choose?
-    Show this poll</div>
+      <Project title="Secret Shaker"
+        description="En app där du först väljer vilka ingredienser du har hemma, 
+  för att sedan skaka mobilen och få fram ett slumpmässigt recept utifrån tillgängliga
+  ingredienser. Skapad i React Native."
+        links={[
+          <Icon size='small' src={icons.github} text="SecretShaker på GitHub" link="https://github.com/kim-iths/SecretShaker" />
+        ]} />
+
+      <Project title="Obenämnt clicker-spel"
+        description="Tryck på fyrkanten för att tjäna ihop mer färg, som sedan kan användas
+  som valuta för att köpa uppgraderingar eller automatiska generatorer som skapar färg automatiskt.
+  Skapad i React."
+        links={[
+          <Icon size='small'
+            src={icons.github}
+            text="rgbgame på GitHub"
+            link="https://github.com/kim-iths/rgbgame" />,
+          <Icon size='small'
+            src={icons.website}
+            text="rgbgame på webben"
+            link="https://kim-iths.github.io/rgbgame/" />
+        ]} />
+
+      <Project title="Drinkos"
+        description="En enkel sida för drinkar och recept
+        där du kan leta upp specifika drinkar eller utforska själv.
+        Skapad med HTML, CSS och JavaScript."
+        links={[
+          <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kim-iths/drinkos" />,
+          <Icon size='small' src={icons.website} text="drinkos på webben" link="https://kim-iths.github.io/drinkos/" />
+        ]} />
+
+
+
+
+      <Project title="Tiles"
+        description="Ett enkelt spel som går ut på att så snabbt som möjligt trycka
+        på rutor med annorlunda färg, vilka blir mindre och mindre för varje gång man trycker.
+        Skapad med Kotlin i Android Studio."
+        links={[
+          <Icon size='small' src={icons.github} text="tiles på GitHub" link="https://github.com/kim-iths/tiles" />
+        ]} />
+
+    </div>
   )
 }
 

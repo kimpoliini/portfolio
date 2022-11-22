@@ -1,0 +1,33 @@
+.project-list-item {
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    margin-bottom: .5rem;
+}
+
+.project-list-item > div {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 1rem;
+}
+
+.project-list-item:hover {
+    background-color: rgba(70, 170, 200, 0.2);
+}
+
+.project-list-item h3 {
+    margin: 0px;
+}
+
+.project-list-item > img {
+    flex: 1;
+    background-color: red;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}

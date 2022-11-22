@@ -34,7 +34,7 @@ header a {
 .header-right > a::after {
   display:block;
   content: '';
-  border-bottom: 2px solid rgb(67, 166, 199);
+  border-bottom: 2px solid rgb(70, 170, 200);
   margin-bottom: -2px;
 
   transform: scaleX(0);
