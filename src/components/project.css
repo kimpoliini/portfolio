@@ -1,12 +1,14 @@
 .project-list-item {
-    padding: .5rem;
+    padding: .75rem;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
     margin-bottom: .5rem;
+    background-color: rgba(70, 170, 200, 0.1);
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
 }
 
-.project-list-item > div {
+.project-list-item > div:not(.image-wrapper) {
     display: flex;
     flex-direction: column;
     flex: 3;
@@ -21,9 +23,19 @@
     margin: 0px;
 }
 
-.project-list-item > img {
+.project-list-item p {
+    /* font-size: 16pt; */
+}
+
+
+.image-wrapper {
     flex: 1;
-    background-color: red;
+}
+
+.project-list-item > div > img {
+    height: 100%;
+    max-width:100%;
+    object-fit: contain;
 }
 
 .link-list {

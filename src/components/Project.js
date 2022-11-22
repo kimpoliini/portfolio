@@ -7,7 +7,9 @@ function Project({ title, description, thumbnail, links }) {
 
     return (
         <div className='project-list-item'>
-            <img src={thumbnail} />
+            <div className='image-wrapper'>
+                <img src={thumbnail} />
+            </div>
 
             <div>
                 <h3>{title}</h3>

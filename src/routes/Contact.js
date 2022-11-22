@@ -10,7 +10,9 @@ function Contact() {
 
   return (
     <div>
-      Vill du komma i kontakt med mig? Synd för dig din jävla jävel om du ringer mig kommer jagk omma till ditt hus och slå in dina väggar md en släögga och sen framkalla jeesus på dina syskon och flöäörldrar och vänner och barn och husdhur och han kommer skicka blixtar på allihopa så att dem DÖR FETT hårt
+      <p>
+        Vill du komma i kontakt eller arbeta med mig? Skicka ett meddelande eller mail så svarar jag så fort jag kan!
+      </p>
 
 
       <Icon src={icons.phone} size="small"
@@ -22,7 +24,6 @@ function Contact() {
       <Icon src={icons.github} size="small"
         text="kim-iths"
         link={github} />
-
 
     </div>
   )
