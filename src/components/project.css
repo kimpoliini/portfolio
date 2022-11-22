@@ -6,6 +6,7 @@
     background-color: rgba(70, 170, 200, 0.1);
     border-radius: 8px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s;
 }
 
 .project-list-item > div:not(.image-wrapper) {
@@ -24,7 +25,10 @@
 }
 
 .image-wrapper {
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-list-item > div > img {
@@ -32,6 +36,11 @@
     max-width:100%;
     object-fit: contain;
     border-radius: 8px;
+}
+
+.image-wrapper > p {
+    font-style: italic;
+    color: gray;
 }
 
 .link-list {
@@ -53,5 +62,9 @@
 
     .image-wrapper {
         margin-bottom: 1rem;
+    }
+
+    .image-wrapper > p {
+        display: none;
     }
 }

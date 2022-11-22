@@ -8,7 +8,9 @@ function Project({ title, description, thumbnail, links }) {
     return (
         <div className='project-list-item'>
             <div className='image-wrapper' style={!thumbnail ? {marginBottom: 0} : null}>
-                {thumbnail ? <img src={thumbnail} /> : null}
+                {thumbnail ? <img src={thumbnail} /> 
+                : <p>Ingen bild ännu</p>
+                }
             </div>
 
             <div>
