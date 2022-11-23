@@ -17,3 +17,12 @@
     margin-top: 0px;
     margin-left: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .image-and-text {
+        flex-direction: column;
+    }
+    .image-and-text > p {
+        margin-top: 1rem;
+    }
+}
