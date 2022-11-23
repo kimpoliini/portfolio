@@ -5,6 +5,7 @@ import { icons, images } from '../images'
 
 
 function Projects() {
+
   return (
     <div>
       <Project title="Better Days"
@@ -27,7 +28,7 @@ function Projects() {
         ]} />
 
       <Project title="Obenämnt clicker-spel"
-      thumbnail={images.rgbgame}
+        thumbnail={images.rgbgame}
         description="Tryck på fyrkanten för att tjäna ihop mer färg, som sedan kan användas
   som valuta för att köpa uppgraderingar eller automatiska generatorer som skapar färg automatiskt.
   Skapad i React."
@@ -43,7 +44,7 @@ function Projects() {
         ]} />
 
       <Project title="Drinkos"
-      thumbnail={images.drinkos}
+        thumbnail={images.drinkos}
         description="En enkel sida för drinkar och recept
         där du kan leta upp specifika drinkar eller utforska själv.
         Skapad med HTML, CSS och JavaScript."

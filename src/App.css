@@ -19,30 +19,34 @@ header a {
   transition: color 0.2s;
 }
 
-.header-left > a {
+.header-left>a {
   margin-left: 0;
   margin-right: 0;
 }
 
-.header-right > a:last-child {
+.header-right>a:last-child {
   margin-right: 2rem;
 }
 
-.header-right > a::after {
-  display:block;
-  content: '';
-  border-bottom: 2px solid rgb(70, 170, 200);
-  margin-bottom: -2px;
-  transform: scaleX(0);
-  transition: transform 0.2s;
-}
+@media (hover: hover) {
 
-.header-right > a:hover {
-  color: rgb(67, 166, 199);
-}
+  .header-right>a::after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid rgb(70, 170, 200);
+    margin-bottom: -2px;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+  }
 
-.header-right > a:hover::after {
-  transform: scaleX(1);
+  .header-right>a:hover,
+  .header-right>a:active {
+    color: rgb(67, 166, 199);
+  }
+
+  .header-right>a:hover::after {
+    transform: scaleX(1);
+  }
 }
 
 .App-header {
@@ -76,4 +80,3 @@ hr {
     align-items: center;
   }
 }
-
