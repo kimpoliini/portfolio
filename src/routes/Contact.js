@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Icon from '../components/Icon'
+import { languageContext } from '../context'
 import { icons } from '../images'
+import { localization } from '../localization'
 
 function Contact() {
+
+  localization.setLanguage(useContext(languageContext).lang)
 
   let phoneNr = "073 268 73 75"
   let email = "kimpas@hotmail.se"
@@ -10,9 +14,7 @@ function Contact() {
 
   return (
     <div>
-      <p>
-        Vill du komma i kontakt eller arbeta med mig? Skicka ett meddelande eller mail så svarar jag så fort jag kan!
-      </p>
+      <p>{localization.contactDesc}</p>
 
 
       <Icon src={icons.phone} size="small"

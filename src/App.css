@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text');
 
+body {
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   font-size: 1em;
 }
@@ -62,6 +71,7 @@ header a {
   padding-right: 1em;
 }
 
+
 hr {
   margin-left: 10%;
   margin-right: 10%;
@@ -69,7 +79,15 @@ hr {
 
 .content {
   margin: 2rem;
+  flex: 1;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+  
 
 @media screen and (max-width: 600px) {
 

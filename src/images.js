@@ -3,6 +3,8 @@ export const icons = {
     email: require("./assets/icons/email.png"),
     github: require("./assets/icons/github.png"),
     website: require("./assets/icons/website.png"),
+    swedish: require("./assets/icons/swedish.png"),
+    english: require("./assets/icons/english.png"),
 }
 
 export const images = {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './icon.css'
 
-function Icon({ src, alt, size = "", text, link, enabled = true }) {
+function Icon({ src, alt, size = "", text, link, onClick, style, enabled = true }) {
 
     let wh = 0
     switch (size) {
@@ -17,13 +17,17 @@ function Icon({ src, alt, size = "", text, link, enabled = true }) {
     }
 
     return (
-        <div className='icon'>
+        <div
+            style={style}
+            onClick={onClick ? onClick : () => window.open(link, "_self")}
+            className='icon'>
             <img src={src}
                 alt={alt ? alt : ""}
-                style={{ height: wh + "px", width: wh + "px",
-             }}
+                style={{
+                    height: wh + "px", width: wh + "px",
+                }}
             />
-            <a href={link}>{text}</a>
+            {text ? <span>{text}</span> : null}
         </div>
     )
 }
