@@ -5,7 +5,6 @@ import { icons, images } from '../images'
 import { localization } from '../localization'
 import { languageContext } from '../context'
 
-
 function Projects() {
 
   localization.setLanguage(useContext(languageContext).lang)

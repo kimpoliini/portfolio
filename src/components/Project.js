@@ -8,7 +8,6 @@ function Project({ title, description, thumbnail, links }) {
 
     localization.setLanguage(useContext(languageContext).lang)
 
-
     return (
         <div className='project-list-item'>
             <div className='image-wrapper' style={!thumbnail ? { marginBottom: 0 } : null}>

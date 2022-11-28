@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import './App.css';
-import { useContext, useEffect, useState } from 'react';
+import { useState } from 'react';
 import { languageContext } from "./context";
 import { localization } from "./localization";
 import Icon from './components/Icon'
@@ -12,7 +12,6 @@ function App() {
   const [lang, setLang] = useState("se")
   localization.setLanguage(lang)
   let selectedLangStyle = {backgroundColor: "rgba(70, 170, 200, 0.5)", borderRadius: "8px"}
-
 
   return (
     <languageContext.Provider value={{ lang, setLang }}>

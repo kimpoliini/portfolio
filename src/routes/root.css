@@ -5,6 +5,7 @@
 }
 .kim {
     flex: 1;
+    max-width: 600px;
 }
 .kim > img {
     border-radius: 8px;
