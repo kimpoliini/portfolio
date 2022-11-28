@@ -23,10 +23,13 @@ export const localization = new LocalizedStrings({
 
         // about
         aboutMeTitle: "Om mig",
-        aboutMeDesc: `My interest for programming and digital creation started in late elementary school,
-            where I used GameMaker to make simple games with their own language GML. In high school, I took a C++ course to learn a "real" language, and soon after that, I took an online course in how to make apps with Java in Android Studio.
-            This gave me the opportunity to get a more official education, and in the summer of 2022 i graduated as an application developer with my Better Days project.
-            Currently I am working as a mailman at CityMail, but am looking for a spot as a web or app developer.`,
+        aboutMeDesc: `Mitt intresse för programmering och att skapa digitalt började redan i högstadiet,
+        då jag använde GameMaker med dess egna språk GML för att skapa spel.
+        I gymnasiet tog jag en kurs i C++ för att lära mig ett "riktigt" språk, och
+        strax efter gymnasiet tog jag en onlinekurs i Java där jag fick lära mig göra appar till Android. 
+        Detta fick mig att leta efter en officiell utbildning inom ämnet, och sommaren
+        2022 tog jag examen med mitt Better Days-projekt som examensarbete och fick certifikat som Applikationsutvecklare.
+        I dagsläget jobbar jag på CityMail men letar efter en plats inom webb- eller apputveckling.`,
         knowledge: "Kunskaper",
         mobile: "Mobil",
         miscellaneous: "Övrigt",
@@ -52,9 +55,12 @@ export const localization = new LocalizedStrings({
         drinkosLegacy: "A simple web page for drinks and recipes where you can look up specific drinks or explore on your own. HTML, CSS and JavaScript.",
         tiles: "A simple game where the goal is to press a shrinking square among similarly colored squares on a grid, as fast as possible. Created with Kotlin in Android Studio.",
 
-
         // about
         aboutMeTitle: "About me",
+        aboutMeDesc: `My interest for programming and digital creation started in late elementary school,
+        where I used GameMaker to make simple games with their own language GML. In high school, I took a C++ course to learn a "real" language, and soon after that, I took an online course in how to make apps with Java in Android Studio.
+        This gave me the opportunity to get a more official education, and in the summer of 2022 i graduated as an application developer with my Better Days project.
+        Currently I am working as a mailman at CityMail, but am looking for a spot as a web or app developer.`,
         knowledge: "Knowledge",
         mobile: "Mobile",
         miscellaneous: "Miscellaneous",
