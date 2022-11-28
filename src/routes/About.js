@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react'
 import './about.css'
-import LocalizedStrings from 'react-localization'
 import { languageContext } from '../context'
 import { localization } from '../localization'
 
