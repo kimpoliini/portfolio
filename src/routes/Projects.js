@@ -11,6 +11,15 @@ function Projects() {
 
   return (
     <div>
+      <h2>{localization.featured}</h2>
+      <Project title="Drinkos"
+        thumbnail={images.drinkos}
+        description={localization.drinkos}
+        links={[
+          <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kim-iths/drinkos-v2" />,
+          // <Icon size='small' src={icons.website} text="drinkos på webben" link="https://kim-iths.github.io/drinkos/" />
+        ]} />
+      <h2>{localization.projects}</h2>
       <Project title="Better Days"
         description={localization.betterDays}
         links={[
@@ -38,7 +47,7 @@ function Projects() {
         ]} />
 
       <Project title="Drinkos (legacy)"
-        thumbnail={images.drinkos}
+        thumbnail={images.drinkosLegacy}
         description={localization.drinkosLegacy}
         links={[
           <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kim-iths/drinkos" />,

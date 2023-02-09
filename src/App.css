@@ -75,7 +75,7 @@ hr {
 }
 
 .content {
-  margin: 2rem;
+  margin: 2rem 4rem 2rem 4rem;
   flex: 1;
 }
 
@@ -85,7 +85,6 @@ footer {
   margin: 2rem;
 }
   
-
 @media screen and (max-width: 600px) {
 
   .App-header {
@@ -93,5 +92,9 @@ footer {
     margin-bottom: 2rem;
     justify-content: center;
     align-items: center;
+  }
+
+  .content {
+    margin: 2rem;
   }
 }
