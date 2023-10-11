@@ -10,12 +10,20 @@ function Root() {
 
   return (
     <div>
+
       <div className='image-and-text'>
         <div className='kim'>
           <img src={images.kim} alt="Me"/>
         </div>
         <p>{localization.meDesc}</p>
       </div>
+      <div className='image-and-text'>
+        <p>{localization.meDescCont}</p>
+        <div className='kim'>
+          <img src={images.hackathon} alt="Me with my group winning Hackathon @ ITHS, 2023"/>
+        </div>
+      </div>
+
     </div>
   )
 }

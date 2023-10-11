@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 1rem;
+
 }
 .kim {
     flex: 1;
@@ -10,13 +12,13 @@
 .kim > img {
     border-radius: 8px;
     max-width: 100%;
+    min-width: 224px;
 }
 
 .image-and-text > p {
     flex: 1.5;
     font-size: 14pt;
-    margin-top: 0px;
-    margin-left: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -25,5 +27,10 @@
     }
     .image-and-text > p {
         margin-top: 1rem;
+
+    }
+
+    .image-and-text:has(p:nth-child(1)) {
+        flex-direction: column-reverse;        
     }
 }

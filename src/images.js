@@ -12,4 +12,5 @@ export const images = {
     drinkosLegacy: require("./assets/images/drinkos-legacy.png"),
     rgbgame: require("./assets/images/rgbgame.png"),
     kim: require("./assets/images/kim.jpg"),
+    hackathon: require("./assets/images/hackathon2023.jpg"),
 }
