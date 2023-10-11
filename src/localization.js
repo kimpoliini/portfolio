@@ -8,7 +8,7 @@ export const localization = new LocalizedStrings({
         contact: "Kontakt",
 
         // root
-        meDesc: `Hej! Jag heter Kim och är en ${Math.abs(new Date().getFullYear() - 1999)} år gammal nyexaminerad apputvecklare.
+        meDesc: `Hej! Jag heter Kim och är en ${Math.abs(new Date().getFullYear() - 1999)} år gammal app- och webbutvecklare.
         Jag har jobbat på en del projekt under mina år, allt från objektorienterat
          i Java och C# till mer frontend i React (tex denna sida!) och React Native, samt HTML, CSS och JavaScript. 
          I fliken "Om" kan du hitta mer om vilka teknologier jag har erfarenhet av.`,
@@ -47,8 +47,8 @@ export const localization = new LocalizedStrings({
         contact: "Contact",
 
         // root
-        meDesc: `Hello! My name is Kim and I am a ${Math.abs(new Date().getFullYear() - 1999)} year old newly graduated
-        app developer. I have been working on a selection of different projects, ranging from object oriented in Java and C#, to frontend in React (like this page!) and React Native, along with HTML, CSS and JavaScript. You can find more info about what technologies i have experience with in the "About" tab.`,
+        meDesc: `Hello! My name is Kim and I am a ${Math.abs(new Date().getFullYear() - 1999)} year old
+        app and web developer. I have been working on a selection of different projects, ranging from object oriented in Java and C#, to frontend in React (like this page!) and React Native, along with HTML, CSS and JavaScript. You can find more info about what technologies i have experience with in the "About" tab.`,
         meDescCont: `I am currently studying at a vocational university, ITHS, where I am learning C#.NET and web development in Blazor/WebAssembly. 
         In the picture you can se me and my group win a Hackathon at ITHS, an accomplishment only achievable through cooperation.`,
         // projects
