@@ -16,20 +16,20 @@ function Projects() {
         thumbnail={images.drinkos}
         description={localization.drinkos}
         links={[
-          <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kim-iths/drinkos-v2" />,
-          // <Icon size='small' src={icons.website} text="drinkos på webben" link="https://kim-iths.github.io/drinkos/" />
+          <Icon size='small' src={icons.github} text="Drinkos på GitHub" link="https://github.com/kimpoliini/drinkos-v2" />,
+          <Icon size='small' src={icons.website} text="Drinkos på webben" link="https://drinkos.net/" />
         ]} />
       <h2>{localization.projects}</h2>
       <Project title="Better Days"
         description={localization.betterDays}
         links={[
-          <Icon size='small' src={icons.github} text="BetterDays på GitHub" link="https://github.com/kim-iths/BetterDays" />
+          <Icon size='small' src={icons.github} text="BetterDays på GitHub" link="https://github.com/kimpoliini/BetterDays" />
         ]} />
 
       <Project title="Secret Shaker"
         description={localization.secretShaker}
         links={[
-          <Icon size='small' src={icons.github} text="SecretShaker på GitHub" link="https://github.com/kim-iths/SecretShaker" />
+          <Icon size='small' src={icons.github} text="SecretShaker på GitHub" link="https://github.com/kimpoliini/SecretShaker" />
         ]} />
 
       <Project title="rgbgame"
@@ -39,25 +39,25 @@ function Projects() {
           <Icon size='small'
             src={icons.github}
             text="rgbgame på GitHub"
-            link="https://github.com/kim-iths/rgbgame" />,
+            link="https://github.com/kimpoliini/rgbgame" />,
           <Icon size='small'
             src={icons.website}
             text="rgbgame på webben"
-            link="https://kim-iths.github.io/rgbgame/" />
+            link="https://kimpoliini.github.io/rgbgame/" />
         ]} />
 
       <Project title="Drinkos (legacy)"
         thumbnail={images.drinkosLegacy}
         description={localization.drinkosLegacy}
         links={[
-          <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kim-iths/drinkos" />,
-          <Icon size='small' src={icons.website} text="drinkos på webben" link="https://kim-iths.github.io/drinkos/" />
+          <Icon size='small' src={icons.github} text="drinkos på GitHub" link="https://github.com/kimpoliini/drinkos" />,
+          <Icon size='small' src={icons.website} text="drinkos på webben" link="https://kimpoliini.github.io/drinkos/" />
         ]} />
 
       <Project title="Tiles"
         description={localization.tiles}
         links={[
-          <Icon size='small' src={icons.github} text="tiles på GitHub" link="https://github.com/kim-iths/tiles" />
+          <Icon size='small' src={icons.github} text="tiles på GitHub" link="https://github.com/kimpoliini/tiles" />
         ]} />
 
     </div>

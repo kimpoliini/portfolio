@@ -9,13 +9,13 @@ function Contact() {
   localization.setLanguage(useContext(languageContext).lang)
 
   let phoneNr = "073 268 73 75"
-  let email = "kimpas@hotmail.se"
-  let github = "https://github.com/kim-iths"
+  let email = "kim.hman@hotmail.com"
+  let github = "https://github.com/kimpoliini/"
 
   return (
     <div>
+      <h2>{localization.contact}</h2>
       <p>{localization.contactDesc}</p>
-
 
       <Icon src={icons.phone} size="small"
         text={phoneNr}
@@ -24,7 +24,7 @@ function Contact() {
         text={email}
         link={'mailto: ' + email} />
       <Icon src={icons.github} size="small"
-        text="kim-iths"
+        text="kimpoliini"
         link={github} />
 
     </div>

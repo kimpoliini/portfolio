@@ -21,6 +21,7 @@ function About() {
                 <li>JavaScript</li>
                 <li>TypeScript</li>
                 <li>React</li>
+                <li>Blazor/WebAssembly</li>
                 <h4>{localization.mobile}</h4>
                 <li>React Native</li>
                 <li>Kotlin</li>
@@ -30,11 +31,12 @@ function About() {
                 <li>Java</li>
                 <li>SQL</li>
                 <h4>{localization.miscellaneous}</h4>
-                <li>Git</li>
+                <li>Git/GitHub</li>
                 <li>Scrum</li>
                 <li>Figma</li>
                 <li>Blender</li>
                 <li>Photoshop</li>
+                <li>Unity3D</li>
             </ul>
 
         </div>
