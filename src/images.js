@@ -8,6 +8,7 @@ export const icons = {
 }
 
 export const images = {
+    nyoom: require("./assets/images/nyoom.jpg"),
     drinkos: require("./assets/images/drinkos.png"),
     drinkosLegacy: require("./assets/images/drinkos-legacy.png"),
     rgbgame: require("./assets/images/rgbgame.png"),

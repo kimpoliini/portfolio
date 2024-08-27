@@ -17,7 +17,7 @@ function Projects() {
         description={localization.drinkos}
         links={[
           <Icon size='small' src={icons.github} text="Drinkos på GitHub" link="https://github.com/kimpoliini/drinkos-v2" />,
-          <Icon size='small' src={icons.website} text="Drinkos på webben" link="https://drinkos.net/" />
+          <Icon size='small' src={icons.website} text="Drinkos på webben" link="https://kimpoliini.github.io/drinkos-v2/" />
         ]} />
       <h2>{localization.projects}</h2>
       <Project title="Better Days"
@@ -25,7 +25,8 @@ function Projects() {
         links={[
           <Icon size='small' src={icons.github} text="BetterDays på GitHub" link="https://github.com/kimpoliini/BetterDays" />
         ]} />
-
+      <Project title="Better Days (Flutter)" description={localization.betterDaysFlutter} links={[]} />
+      <Project title={localization.racingGameTitle} thumbnail={images.nyoom} description={localization.racingGame} links={[]} />
       <Project title="Secret Shaker"
         description={localization.secretShaker}
         links={[
