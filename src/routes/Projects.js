@@ -21,11 +21,12 @@ function Projects() {
         ]} />
       <h2>{localization.projects}</h2>
       <Project title="Better Days"
+        thumbnail={images.betterDays}
         description={localization.betterDays}
         links={[
           <Icon size='small' src={icons.github} text="BetterDays på GitHub" link="https://github.com/kimpoliini/BetterDays" />
         ]} />
-      <Project title="Better Days (Flutter)" description={localization.betterDaysFlutter} links={[]} />
+      <Project title="Better Days (Flutter)" thumbnail={images.betterDaysFlutter} description={localization.betterDaysFlutter} links={[]} />
       <Project title={localization.racingGameTitle} thumbnail={images.nyoom} description={localization.racingGame} links={[]} />
       <Project title="Secret Shaker"
         description={localization.secretShaker}
