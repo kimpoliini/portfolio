@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.03a98f52.css",
-    "main.js": "/static/js/main.3ffdf231.js",
+    "main.css": "/static/css/main.8899a27e.css",
+    "main.js": "/static/js/main.79ced0dd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/nyoom.jpg": "/static/media/nyoom.c43358c3550c7d142718.jpg",
     "static/media/kim.jpg": "/static/media/kim.4742e6ff7b8aebc7b680.jpg",
     "static/media/hackathon2023.jpg": "/static/media/hackathon2023.9760060dd2612d4948b7.jpg",
     "static/media/drinkos.png": "/static/media/drinkos.5284e0821268a315c324.png",
     "static/media/drinkos-legacy.png": "/static/media/drinkos-legacy.4c0b2ed499380c5206b6.png",
+    "static/media/better-days.jpg": "/static/media/better-days.123e934b8fd00935ad3a.jpg",
+    "static/media/better-days-flutter.jpg": "/static/media/better-days-flutter.6778cd94d2da9950ae04.jpg",
     "static/media/rgbgame.png": "/static/media/rgbgame.e9e10858ebbe4225569c.png",
     "static/media/english.png": "/static/media/english.734f890961384f687ce3.png",
     "index.html": "/index.html",
-    "main.03a98f52.css.map": "/static/css/main.03a98f52.css.map",
-    "main.3ffdf231.js.map": "/static/js/main.3ffdf231.js.map",
+    "main.8899a27e.css.map": "/static/css/main.8899a27e.css.map",
+    "main.79ced0dd.js.map": "/static/js/main.79ced0dd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03a98f52.css",
-    "static/js/main.3ffdf231.js"
+    "static/css/main.8899a27e.css",
+    "static/js/main.79ced0dd.js"
   ]
 }
