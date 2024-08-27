@@ -18,18 +18,20 @@ function About() {
                 <h4>Frontend</h4>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
+                <li>JavaScript/TypeScript</li>
                 <li>React</li>
+                <li>Next.js</li>
                 <li>Blazor/WebAssembly</li>
                 <h4>{localization.mobile}</h4>
                 <li>React Native</li>
+                <li>Flutter</li>
                 <li>Kotlin</li>
                 <li>Swift</li>
                 <h4>Backend</h4>
                 <li>C#.NET</li>
                 <li>Java</li>
-                <li>SQL</li>
+                <li>SQLite</li>
+                <li>SQL Server</li>
                 <h4>{localization.miscellaneous}</h4>
                 <li>Git/GitHub</li>
                 <li>Scrum</li>

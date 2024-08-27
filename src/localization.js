@@ -35,7 +35,7 @@ export const localization = new LocalizedStrings({
         strax efter gymnasiet tog jag en onlinekurs i Java där jag fick lära mig göra appar till Android. 
         Detta fick mig att leta efter en officiell utbildning inom ämnet, och sommaren
         2022 tog jag examen med mitt Better Days-projekt som examensarbete och fick certifikat som Applikationsutvecklare.
-        I dagsläget jobbar jag på CityMail men letar efter en plats inom webb- eller apputveckling.`,
+        I dagsläget Studerar jag C#.Net på IT-Högskolan.`,
         knowledge: "Kunskaper",
         mobile: "Mobil",
         miscellaneous: "Övrigt",
@@ -72,7 +72,7 @@ export const localization = new LocalizedStrings({
         aboutMeDesc: `My interest for programming and digital creation started in late elementary school,
         where I used GameMaker to make simple games with their own language GML. In high school, I took a C++ course to learn a "real" language, and soon after that, I took an online course in how to make apps with Java in Android Studio.
         This gave me the opportunity to get a more official education, and in the summer of 2022 i graduated as an application developer with my Better Days project.
-        Currently I am working as a mailman at CityMail, but am looking for a spot as a web or app developer.`,
+        I am currently studying C#.Net at IT-Högskolan.`,
         knowledge: "Knowledge",
         mobile: "Mobile",
         miscellaneous: "Miscellaneous",
