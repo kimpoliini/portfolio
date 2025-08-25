@@ -11,21 +11,36 @@ function Contact() {
   let phoneNr = "073 268 73 75"
   let email = "kim.hman@hotmail.com"
   let github = "https://github.com/kimpoliini/"
+  let linkedin = "https://www.linkedin.com/in/kim-hellman/"
 
   return (
     <div>
       <h2>{localization.contact}</h2>
       <p>{localization.contactDesc}</p>
 
-      <Icon src={icons.phone} size="small"
-        text={phoneNr}
-        link={'tel: ' + phoneNr} />
-      <Icon src={icons.email} size="small"
-        text={email}
-        link={'mailto: ' + email} />
-      <Icon src={icons.github} size="small"
-        text="kimpoliini"
-        link={github} />
+      <ul>
+
+        <li>
+          <Icon src={icons.phone} size="small"
+            text={phoneNr}
+            link={'tel: ' + phoneNr} />
+        </li>
+        <li>
+          <Icon src={icons.email} size="small"
+            text={email}
+            link={'mailto: ' + email} />
+        </li>
+        <li>
+          <Icon src={icons.github} size="small"
+            text={github}
+            link={github} />
+        </li>
+        <li>
+          <Icon src={icons.linkedin} size="small"
+            text={linkedin}
+            link={linkedin} />
+        </li>
+      </ul>
 
     </div>
   )

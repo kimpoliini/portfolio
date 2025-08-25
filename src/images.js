@@ -2,6 +2,7 @@ export const icons = {
     phone: require("./assets/icons/phone.png"),
     email: require("./assets/icons/email.png"),
     github: require("./assets/icons/github.png"),
+    linkedin: require("./assets/icons/linkedin.png"),
     website: require("./assets/icons/website.png"),
     swedish: require("./assets/icons/swedish.png"),
     english: require("./assets/icons/english.png"),

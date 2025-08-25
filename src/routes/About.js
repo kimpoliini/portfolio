@@ -10,7 +10,7 @@ function About() {
     return (
         <div>
             <h2>{localization.aboutMeTitle}</h2>
-            <p>{localization.aboutMeDesc}</p>
+            <p style={{ whiteSpace: "pre-line" }}>{localization.aboutMeDesc}</p>
 
             <h2>{localization.knowledge}</h2>
 
@@ -21,15 +21,15 @@ function About() {
                 <li>JavaScript/TypeScript</li>
                 <li>React</li>
                 <li>Next.js</li>
+                <li>Vue.js</li>
                 <li>Blazor/WebAssembly</li>
                 <h4>{localization.mobile}</h4>
                 <li>React Native</li>
-                <li>Flutter</li>
-                <li>Kotlin</li>
+                <li>Flutter (Dart)</li>
                 <li>Swift</li>
                 <h4>Backend</h4>
                 <li>C#.NET</li>
-                <li>Java</li>
+                <li>Java/Kotlin</li>
                 <li>SQLite</li>
                 <li>SQL Server</li>
                 <h4>{localization.miscellaneous}</h4>

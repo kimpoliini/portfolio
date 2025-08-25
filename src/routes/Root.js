@@ -13,14 +13,14 @@ function Root() {
 
       <div className='image-and-text'>
         <div className='kim'>
-          <img src={images.kim} alt="Me"/>
+          <img src={images.kim} alt="Me" />
         </div>
-        <p>{localization.meDesc}</p>
+        <p style={{ whiteSpace: "pre-line" }}>{localization.meDesc}</p>
       </div>
       <div className='image-and-text'>
-        <p>{localization.meDescCont}</p>
+        <p style={{ whiteSpace: "pre-line" }}>{localization.meDescCont}</p>
         <div className='kim'>
-          <img src={images.hackathon} alt="Me with my group winning Hackathon @ ITHS, 2023"/>
+          <img src={images.hackathon} alt="Me with my group winning Hackathon @ ITHS, 2023" />
         </div>
       </div>
 

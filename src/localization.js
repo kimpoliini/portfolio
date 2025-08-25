@@ -8,12 +8,15 @@ export const localization = new LocalizedStrings({
         contact: "Kontakt",
 
         // root
-        meDesc: `Hej! Jag heter Kim och är en ${Math.abs(new Date().getFullYear() - 1999)} år gammal app- och webbutvecklare.
-        Jag har jobbat på en del projekt under mina år, allt från objektorienterat
-         i Java och C# till mer frontend i React (tex denna sida!) och React Native, samt HTML, CSS och JavaScript. 
-         I fliken "Om" kan du hitta mer om vilka teknologier jag har erfarenhet av.`,
-        meDescCont: `För närvarande studerar jag på yrkeshögskola och läser C#.NET samt webbutveckling i Blazor/WebAssembly. 
-         På bilden kan du se mig och min grupp vinna Hackathon på ITHS, en prestation som endast kunde åstadkommits genom samarbete.`,
+        meDesc: `Jag har arbetat med flera projekt genom åren, allt från objektorienterad programmering i Java och C# till mer frontend-fokuserat arbete i React – som denna sida!
+
+        Jag har även erfarenhet av apputveckling, både med nativa språk som Swift och Kotlin för iOS respektive Android, samt med crossplatformramverk som Flutter och React Native.
+        
+        Du kan hitta mer information om vilka teknologier jag har erfarenhet av under fliken "Om", och mina projekt under den lämpligt nämnda fliken "Projekt".`,
+        meDescCont: `Jag har nyligen studerat C#.Net och webbutveckling på en yrkeshögskola och tog examen i juni 2025.
+        Under studietiden fick jag även arbeta som praktikant på ett större företag, där jag fick möjligheten att implementera en efterfrågad funktion i en av deras produkter.
+
+        På bilden kan du se mig och min grupp vinna en Hackathon på ITHS, något som bara var möjligt genom samarbete.`,
         // projects
         featured: "Utvald",
         noImage: "Ingen bild ännu",
@@ -29,13 +32,14 @@ export const localization = new LocalizedStrings({
 
         // about
         aboutMeTitle: "Om mig",
-        aboutMeDesc: `Mitt intresse för programmering och att skapa digitalt började redan i högstadiet,
-        då jag använde GameMaker med dess egna språk GML för att skapa spel.
-        I gymnasiet tog jag en kurs i C++ för att lära mig ett "riktigt" språk, och
-        strax efter gymnasiet tog jag en onlinekurs i Java där jag fick lära mig göra appar till Android. 
-        Detta fick mig att leta efter en officiell utbildning inom ämnet, och sommaren
-        2022 tog jag examen med mitt Better Days-projekt som examensarbete och fick certifikat som Applikationsutvecklare.
-        I dagsläget Studerar jag C#.Net på IT-Högskolan.`,
+        aboutMeDesc: `Mitt intresse för programmering och att skapa digitalt började redan i högstadiet, då jag använde GameMaker med dess egna språk GML för att skapa spel.
+        
+        I gymnasiet tog jag en kurs i C++ för att lära mig ett mer användbart språk, och strax efter gymnasiet tog jag en onlinekurs i Java där jag fick lära mig göra appar till Android. 
+        Detta fick mig att leta efter en officiell utbildning inom ämnet, och sommaren 2022 tog jag examen med mitt Better Days-projekt som examensarbete och fick certifikat som Applikationsutvecklare.
+        
+        2023 började jag studera C#.Net på ITHS för att bredda mina kunskaper, och tog examen i juni 2025.
+        
+        I dagsläget jobbar jag på egna projekt, samt söker en roll som webb- eller apputvecklare så att jag kan fortätta min karriär inom IT, och att utvecklas som programmerare.`,
         knowledge: "Kunskaper",
         mobile: "Mobil",
         miscellaneous: "Övrigt",
@@ -50,10 +54,16 @@ export const localization = new LocalizedStrings({
         contact: "Contact",
 
         // root
-        meDesc: `Hello! My name is Kim and I am a ${Math.abs(new Date().getFullYear() - 1999)} year old
-        app and web developer. I have been working on a selection of different projects, ranging from object oriented in Java and C#, to frontend in React (like this page!) and React Native, along with HTML, CSS and JavaScript. You can find more info about what technologies i have experience with in the "About" tab.`,
-        meDescCont: `I am currently studying at a vocational university, ITHS, where I am learning C#.NET and web development in Blazor/WebAssembly. 
-        In the picture you can se me and my group win a Hackathon at ITHS, an accomplishment only achievable through cooperation.`,
+        meDesc: `Hello! My name is Kim and I am a ${Math.abs(new Date().getFullYear() - 1999)} year old app and web developer, located in Stockholm, Sweden.
+        I have worked on several projects over the years, ranging from object-oriented programming in Java and C# to more frontend-focused work in React - like this site!
+
+        I have experience in app development as well, both using native languages like Swift and Kotlin for iOS and Android respectively, but as well cross-platform frameworks like Flutter and React Native.
+        
+        You can find more info about what technologies i have experience with in the "About" tab, and my projects in the appropriately named "Projects" tab.`,
+        meDescCont: `I have most recently been studying C#.Net and web development at a vocational school, and I graduated in June of 2025.
+        During my studies I also got to work as an intern at a larger company, getting the opportunity to implement a largly requested feature in one of their products.
+
+        In the picture you can see me and my group win a Hackathon at ITHS, an accomplishment only achievable through cooperation.`,
         // projects
         featured: "Featured",
         noImage: "No image yet",
@@ -69,11 +79,15 @@ export const localization = new LocalizedStrings({
 
         // about
         aboutMeTitle: "About me",
-        aboutMeDesc: `My interest for programming and digital creation started in late elementary school,
-        where I used GameMaker to make simple games with their own language GML. In high school, I took a C++ course to learn a "real" language, and soon after that, I took an online course in how to make apps with Java in Android Studio.
-        This gave me the opportunity to get a more official education, and in the summer of 2022 i graduated as an application developer with my Better Days project.
-        I am currently studying C#.Net at IT-Högskolan.`,
-        knowledge: "Knowledge",
+        aboutMeDesc: `My interest in programming and creating digitally started back in middle school, when I used GameMaker and its own language GML to make games.
+
+        In high school, I took a course in C++ to learn a more useful language, and shortly after graduation I took an online course in Java where I learned to make Android apps.
+        This led me to look for an official education in the field, and in the summer of 2022 I graduated with my "Better Days" project as my thesis and received a certificate as an Application Developer.
+
+        In 2023, I started studying C#.Net at ITHS to broaden my knowledge, and graduated in June 2025.
+
+        Currently, I am working on my own projects while looking for a role as a web or app developer so I can continue my career in IT and grow as a programmer.`,
+        knowledge: "Skills",
         mobile: "Mobile",
         miscellaneous: "Miscellaneous",
 
